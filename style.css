@@ -1,0 +1,17 @@
+div.logo {
+    margin-top: 15%;
+    background-color: wheat;
+    text-align: center;
+}
+
+div.search_bar {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: teal;
+}
+input {
+    border-radius: 25px;
+    width: 37.5%;
+    height: 25px;
+}
