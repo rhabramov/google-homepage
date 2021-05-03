@@ -1,17 +1,94 @@
 div.logo {
     margin-top: 15%;
-    background-color: wheat;
     text-align: center;
 }
 
 div.search_bar {
+    border-radius: 25px;
     margin-top: 2%;
     margin-bottom: 2%;
+    margin-left: 33%;
+    height: 40px;
+    width: 33%;
+    background-color: white;
+    border:1px solid lightgray;
     text-align: center;
-    background-color: teal;
+    position: absolute;
 }
 input {
-    border-radius: 25px;
-    width: 37.5%;
-    height: 25px;
+    border: none;
+    background-color: transparent;
+    width: 85%;
+    height: 100%;
+} 
+svg {
+    position: absolute;
+    color: darkgray;
+    left:10px;
+    height: 100%;
+}
+input:focus{
+    outline: none;
+}
+div.search_buttons {
+    background-color: white;
+    margin-top: 7.5%;
+    text-align: center;
+}
+button {
+    font-size: medium;
+    background-color: whitesmoke;
+    border:none;
+    padding: 0.75%;
+}
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+.topnav-right {
+    float: right;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.dot {
+    height: 45px;
+    width: 45px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: -webkit-inline-flex;
+}
+
+.bottomnav {
+    background-color: rgb(240, 240, 240);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+}
+.bottomnav-centered {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bottomnav-right {
+    float: right;
+}
+.bottomnav a {
+    float: left;
+    display: block;
+    color: rgb(94, 94, 94);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: sans-serif;
 }
